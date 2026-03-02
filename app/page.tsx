@@ -1,3 +1,4 @@
+import { Suspense } from 'react'; // 1. Import Suspense
 import Navbar from './components/Navbar';
 import Hero from './Hero'; 
 import PropertySection from './components/PropertySection';
@@ -9,7 +10,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
       <Navbar />
-      <Hero />
+      
+      {/* 2. Wrap Hero in Suspense to fix the Vercel build error */}
+      {/* The fallback is a simple black/dark box that matches your hero height */}
+      <Suspense fallback={<div className="h-[500px] md:h-[600px] bg-slate-900 animate-pulse" />}>
+        <Hero />
+      </Suspense>
       
       {/* Reduced space-y from 20 to 10 to bring sections closer together */}
       <div className="max-w-7xl mx-auto px-4 py-12 space-y-10">
