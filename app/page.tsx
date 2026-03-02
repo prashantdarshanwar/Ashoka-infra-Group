@@ -5,7 +5,7 @@ import PropertySection from './components/PropertySection';
 import HowItWorks from './components/HowItWorks';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
-
+//trihgegvrv
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50">
