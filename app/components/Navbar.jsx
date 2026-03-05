@@ -22,7 +22,7 @@ export default function Navbar() {
           <div className="w-10 h-10 rounded-full bg-white overflow-hidden flex items-center justify-center">
             <img src="/logo (2).png" alt="Logo" className="w-full h-full object-contain" />
           </div>
-          <span className="font-bold text-lg md:text-xl tracking-tight">Ashoka Infra Group</span>
+          <span className="font-bold text-lg md:text-xl tracking-tight">Future InfraGrow</span>
         </Link>
 
         {/* Desktop Links (Hidden on Mobile) */}
