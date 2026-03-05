@@ -15,13 +15,13 @@ export async function POST(req: Request) {
 
     // --- 1. THE AUTO-REPLY (To the User) ---
     const autoReplyOptions = {
-      from: '"Ashoka Infra Group" <futureinfragrow@gmail.com>',
+      from: '"Future Infra Grow" <futureinfragrow@gmail.com>',
       to: email, // Sending back to the user who filled the form
       subject: `We've received your enquiry for ${property_name}`,
       html: `
         <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 600px; margin: auto; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden;">
           <div style="background-color: #0f172a; padding: 30px; text-align: center;">
-            <h1 style="color: #ffffff; margin: 0; font-size: 24px;">Ashoka Infra Group</h1>
+            <h1 style="color: #ffffff; margin: 0; font-size: 24px;">Future Infra Grow</h1>
           </div>
           <div style="padding: 40px; color: #334155; line-height: 1.6;">
             <h2 style="color: #0f172a;">Hi ${name},</h2>
@@ -33,10 +33,10 @@ export async function POST(req: Request) {
             <p>If you need immediate assistance, feel free to call us at <a href="tel:+918007635649" style="color: #2563eb; font-weight: bold; text-decoration: none;">+91 80076 35649</a>.</p>
             <br />
             <p style="margin-bottom: 0;">Best regards,</p>
-            <p style="margin-top: 5px; font-weight: bold; color: #0f172a;">The Ashoka Infra Team</p>
+            <p style="margin-top: 5px; font-weight: bold; color: #0f172a;">The Future Infra Grow</p>
           </div>
           <div style="background-color: #f1f5f9; padding: 20px; text-align: center; font-size: 12px; color: #94a3b8;">
-            Nagpur Region, Maharashtra | www.ashokanfragroup.in
+            Nagpur Region, Maharashtra | www.futureinfragrow.in
           </div>
         </div>
       `,
