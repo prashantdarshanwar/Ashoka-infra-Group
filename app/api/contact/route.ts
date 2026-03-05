@@ -8,14 +8,14 @@ export async function POST(req: Request) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'ashokainfragroup@gmail.com',
+        user: 'futureinfragrow@gmail.com',
         pass: process.env.EMAIL_APP_PASSWORD, // Your 16-digit Google App Password
       },
     });
 
     // --- 1. THE AUTO-REPLY (To the User) ---
     const autoReplyOptions = {
-      from: '"Ashoka Infra Group" <ashokainfragroup@gmail.com>',
+      from: '"Ashoka Infra Group" <futureinfragrow@gmail.com>',
       to: email, // Sending back to the user who filled the form
       subject: `We've received your enquiry for ${property_name}`,
       html: `

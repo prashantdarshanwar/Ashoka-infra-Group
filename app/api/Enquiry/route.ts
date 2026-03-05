@@ -16,14 +16,14 @@ export async function POST(req: Request) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'ashokainfragroup@gmail.com',
+        user: 'futureinfragrowp@gmail.com',
         pass: process.env.EMAIL_APP_PASSWORD, 
       },
     });
 
     // 2. Format the Email Content (Admin Notification)
     const adminMailOptions = {
-      from: '"Ashoka Website" <ashokainfragroup@gmail.com>',
+      from: '"Ashoka Website" <futureinfragrow@gmail.com>',
       to: 'ashokainfragroup@gmail.com',
       subject: `📢 New Enquiry: ${name} (${service})`,
       html: `
