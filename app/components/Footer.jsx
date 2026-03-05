@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="space-y-6">
           <div className="flex items-center gap-2 text-blue-500 font-bold text-xl">
             <Building2 size={28} />
-            <span className="text-white">Ashoka Infra Group</span>
+            <span className="text-white">Future InfraGrow</span>
           </div>
           <p className="text-gray-400 text-sm leading-relaxed">
             Your trusted partner in finding the perfect property. We're committed to making your real estate journey seamless and successful.
