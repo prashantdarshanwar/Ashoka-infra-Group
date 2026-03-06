@@ -20,7 +20,7 @@ export default function Navbar() {
         {/* Brand Logo */}
         <Link href="/" className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-white overflow-hidden flex items-center justify-center">
-            <img src="/logo (2).png" alt="Logo" className="w-full h-full object-contain" />
+            <img src="/logo.jpeg" alt="Logo" className="w-full h-full object-contain" />
           </div>
           <span className="font-bold text-lg md:text-xl tracking-tight">Future InfraGrow</span>
         </Link>

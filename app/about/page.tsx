@@ -36,7 +36,7 @@ export default function AboutUs() {
           <div className="relative">
              <div className="rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white">
                 <img 
-                  src="logo (2).png" 
+                  src="logo (2).jpeg" 
                   alt="Modern Real Estate Development" 
                   className="w-full h-[500px] object-cover"
                 />
