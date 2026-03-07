@@ -15,10 +15,10 @@ export default function FilterSidebar({ onFilterChange }: FilterSidebarProps) {
   const [location, setLocation] = useState('');
   const [selectedBHK, setSelectedBHK] = useState<string[]>([]);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
-
+  const bhkOptions = ['1 BHK', '2 BHK', '3 BHK', '4+ BHK'];
   const propertyTypes = ['Plot', 'Apartment', 'Villa', 'House'];
   // Re-enabled bhkOptions to match the logic used in handleCheck
-  const bhkOptions = ['1 BHK', '2 BHK', '3 BHK', '4+ BHK'];
+  // const bhkOptions = ['1 BHK', '2 BHK', '3 BHK', '4+ BHK'];
 
   // Helper to send the current state back to the parent PropertiesPage
   const triggerUpdate = () => {
@@ -80,7 +80,7 @@ export default function FilterSidebar({ onFilterChange }: FilterSidebarProps) {
       </div>
 
       {/* BHK Filter - Re-enabled for mobile consistency */}
-      <div>
+      {/* <div>
         <h3 className="font-bold mb-4 text-slate-800">BHK</h3>
         <div className="space-y-2">
           {bhkOptions.map((option) => (
@@ -95,7 +95,7 @@ export default function FilterSidebar({ onFilterChange }: FilterSidebarProps) {
             </label>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Property Type Filter */}
       <div>
@@ -115,6 +115,24 @@ export default function FilterSidebar({ onFilterChange }: FilterSidebarProps) {
         </div>
       </div>
 
+    {/* BHK Filter - Re-enabled for mobile consistency */}
+      <div>
+        <h3 className="font-bold mb-4 text-slate-800">BHK</h3>
+        <div className="space-y-2">
+          {bhkOptions.map((option) => (
+            <label key={option} className="flex items-center gap-2 text-sm text-gray-600 cursor-pointer py-1">
+              <input 
+                type="checkbox" 
+                checked={selectedBHK.includes(option)}
+                onChange={() => handleCheck(selectedBHK, setSelectedBHK, option, true)}
+                className="w-4 h-4 rounded border-gray-300 accent-blue-700" 
+              />
+              {option}
+            </label>
+          ))}
+        </div>
+      </div>
+      
       {/* Bottom Action Section */}
       <div className="pt-4 border-t border-gray-50">
         <button 
