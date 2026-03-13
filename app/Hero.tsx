@@ -37,7 +37,7 @@ export default function Hero() {
           Find Your Perfect Plot And Home
         </h1>
         <p className="text-lg md:text-xl mb-8 opacity-90">
-          Explore the best properties for rent and sale in your city
+          Explore the best properties for buy in your city
         </p>
         
         {/* FULLY TRANSPARENT CARD CONTAINER 
