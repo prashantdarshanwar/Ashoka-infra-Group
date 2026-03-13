@@ -20,7 +20,7 @@ export default function AboutUs() {
               <span className="text-blue-600">Nagpur Skyline.</span>
             </h1>
             <p className="text-slate-600 text-lg md:text-xl font-medium leading-relaxed mb-8">
-              At Ashoka Infra Group, we don’t just deal in plots and properties; we build the foundations for your future dreams. With a focus on transparency and strategic locations, we are Nagpur’s trusted real estate partner.
+              At Future Infra Grow, we don’t just deal in plots and properties; we build the foundations for your future dreams. With a focus on transparency and strategic locations, we are Nagpur’s trusted real estate partner.
             </p>
             <div className="flex flex-wrap gap-4">
                <div className="flex items-center gap-2 bg-white px-5 py-3 rounded-2xl shadow-sm border border-slate-100">
