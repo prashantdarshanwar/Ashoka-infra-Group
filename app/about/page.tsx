@@ -98,7 +98,7 @@ export default function AboutUs() {
               Ready to invest in Nagpur's growth?
             </h2>
             <p className="text-slate-400 text-lg mb-10 max-w-xl mx-auto font-medium">
-              Join hundreds of happy families who have found their dream property with Ashoka Infra Group.
+              Join hundreds of happy families who have found their dream property with Future Infra Grow.
             </p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-6">
               <a href="/contact" className="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white px-10 py-5 rounded-2xl font-black text-sm uppercase tracking-widest transition-all flex items-center justify-center gap-3">

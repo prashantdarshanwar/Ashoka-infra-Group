@@ -88,7 +88,7 @@ export default function Footer() {
         <Mail size={18} />
       </div>
       <a href="mailto:ashokainfragroup@gmail.com" className="text-sm font-bold text-slate-400 hover:text-white transition-colors break-all">
-        ashokainfragroup@gmail.com
+        futureinfragrow@gmail.com
       </a>
     </li>
   </ul>
