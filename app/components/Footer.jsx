@@ -98,7 +98,7 @@ export default function Footer() {
       
       {/* Bottom Copyright Bar */}
       <div className="max-w-7xl mx-auto px-8 mt-16 pt-8 border-t border-gray-800 text-center text-gray-500 text-xs">
-        © {new Date().getFullYear()} Ashoka Infra Group. All rights reserved.
+        © {new Date().getFullYear()} Future Infra Grow. All rights reserved.
       </div>
     </footer>
   );
