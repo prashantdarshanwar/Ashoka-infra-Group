@@ -24,7 +24,7 @@ export default function Footer() {
             <a href="https://x.com/i/status/2025873041654481257" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <Twitter size={18} className="hover:text-blue-400 cursor-pointer transition-colors" />
             </a>
-            <a href="https://www.instagram.com/ashokainfragroup?igsh=MXlmcGtva2Z4a2Zz" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/futureinfragrow?igsh=MW1jb3ZkbHl2d3Bhdg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram size={18} className="hover:text-pink-500 cursor-pointer transition-colors" />
             </a>
             <a href="https://www.linkedin.com/company/ashoka-infra-group/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
