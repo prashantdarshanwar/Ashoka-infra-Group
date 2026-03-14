@@ -21,7 +21,7 @@ export default function Footer() {
             <a href="https://www.facebook.com/profile.php?id=61588553162380" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <Facebook size={18} className="hover:text-blue-500 cursor-pointer transition-colors" />
             </a>
-            <a href="https://x.com/i/status/2025873041654481257" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <a href="https://x.com/FutureinfraGrow" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <Twitter size={18} className="hover:text-blue-400 cursor-pointer transition-colors" />
             </a>
             <a href="https://www.instagram.com/futureinfragrow?igsh=MW1jb3ZkbHl2d3Bhdg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
