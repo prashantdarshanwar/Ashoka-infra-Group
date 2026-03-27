@@ -103,7 +103,7 @@ export default function ContactUs() {
                 <h3 className="text-[10px] font-black text-slate-400 uppercase tracking-[0.25em] mb-2">Digital Portal</h3>
                 <p className="text-xl font-bold text-slate-900">futureinfragrow.in</p>
               </div>
-              <a href="https://future-infra-grow-5b8j.vercel.app" target="_blank" className="mt-6 flex items-center gap-2 text-orange-600 font-bold group-hover:gap-4 transition-all">
+              <a href="https://www.futureinfragrow.in/" target="_blank" className="mt-6 flex items-center gap-2 text-orange-600 font-bold group-hover:gap-4 transition-all">
                 Visit Site <ArrowRight size={20} />
               </a>
             </div>
