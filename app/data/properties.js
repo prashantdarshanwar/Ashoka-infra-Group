@@ -241,6 +241,6 @@ export const mockProperties = [
     status: "For Sale",
     description: "Prime 2BHK and 3BHK luxury apartments with excellent finishes.",
     features: ["Prime Location", "Luxury Finishes", "Resale Value"],
-    image: ["https://images.unsplash.com/photo-1502672023488-70e25813efdf?w=800"]
+    image: ["/Manish_Nagar.png"]
   }
 ];

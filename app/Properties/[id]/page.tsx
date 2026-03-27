@@ -206,7 +206,7 @@ export default function PropertyDetails() {
               <div className="flex items-center gap-4 mb-8 p-4 bg-slate-50 rounded-2xl border border-blue-50">
                 <div className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-black text-lg">AS</div>
                 <div>
-                  <p className="font-black text-slate-900 leading-none">Ashoka Support</p>
+                  <p className="font-black text-slate-900 leading-none">Future Support</p>
                   <p className="text-[11px] text-blue-600 font-bold mt-1 uppercase tracking-wider">Direct Agent • Active</p>
                 </div>
               </div>
