@@ -10,7 +10,7 @@ export default function AboutUs() {
     { name: "Nilesh Y. Meshram", role: "Managing Director", image: "/team/nilesh.jpg" },
     { name: "Rohit Wasnik", role: "Accounts", image: "Rohit w.jpeg" },
     { name: "Vikash Choudhary", role: "Manager", image: "/team/vikash.jpg" },
-    { name: "Naitik Ganvin", role: "Digital & Tech Creator", image: "/team/naitik.jpg" },
+    { name: "Naitik Ganvir", role: "Digital & Tech Creator", image: "/team/naitik.jpg" },
     { name: "Nikhil T. Sakhare", role: "Sales Manager", image: "Nikhil sakhare.jpeg" },
     { name: "Nitin Patle", role: "Team Leader", image: "nitin patle.jpeg" },
     { name: "Amar Devade", role: "Team Leader", image: "amar dode.jpeg" },
